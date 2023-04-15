@@ -78,7 +78,7 @@
             .ShowInTaskbar = False
             .FormBorderStyle = Windows.Forms.FormBorderStyle.None
             .StartPosition = FormStartPosition.Manual
-            .BackColor = Color.White
+
             .Opacity = 0.8
             Dim r As Rectangle = Me.Bounds
             r.Inflate(2, 2)
@@ -148,7 +148,7 @@
             Next
             TextBox1.Text &= distritos(op - 1).numero & ","
             TextBox1.Text &= distritos(op - 1).nome & ","
-            TextBox1.Text &= distritos(op - 1).densidade() &
+            TextBox1.Text &= distritos(op - 1).densidade()
         End If
 
 
