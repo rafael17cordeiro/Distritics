@@ -32,6 +32,11 @@ Distritos
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Distritos.My.Resources.Resources.logout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Distritos.My.Resources.Resources.menu">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

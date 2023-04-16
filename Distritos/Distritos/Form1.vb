@@ -93,32 +93,11 @@
 
     End Sub
 
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
         Me.Close()
     End Sub
 
-    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
-        Label2.Visible = True
-        Label3.Visible = True
-        Label4.Visible = True
-        Label5.Visible = True
-        Label6.Visible = True
-        Label7.Visible = True
-        PictureBox4.Visible = False
-        Label8.Visible = True
 
-    End Sub
-
-    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
-        Label2.Visible = False
-        Label3.Visible = False
-        Label4.Visible = False
-        Label5.Visible = False
-        Label6.Visible = False
-        Label7.Visible = False
-        PictureBox4.Visible = true
-        Label8.Visible = False
-    End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         TextBox1.Text = ""
@@ -152,6 +131,31 @@
         End If
 
 
+
+    End Sub
+
+    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
+        Me.Close()
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+        TextBox1.Text = ""
+        Dim habitantes_ut
+        Dim op As Integer = BunifuDropdown1.selectedIndex
+        If BunifuDropdown1.selectedIndex = -1 Then
+            MsgBox("Selecione uma opção")
+        Else
+            habitantes_ut = InputBox("Insira o numero da habitantes")
+
+            distritos(op).habitantes = habitantes_ut
+
+            MsgBox("Habitante Alterado com sucesso!")
+
+        End If
+
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
 
     End Sub
 End Class
