@@ -156,6 +156,30 @@
     End Sub
 
     Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+        TextBox1.Text = ""
+        For i = 0 To 19
+            TextBox1.Text &= distritos(i).letras() & "¦"
 
+            For j = 0 To distritos(i).area Step 1000
+                TextBox1.Text &= "*"
+            Next
+            TextBox1.Text &= vbNewLine
+        Next
+    End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        Dim portugal_area As Single
+        Dim area_select As Single
+        Dim percentagem As Single
+        For i = 0 To 19
+            portugal_area += distritos(i).area
+        Next
+
+        For i = 0 To BunifuDropdown1.selectedIndex + 1
+            area_select = distritos(i).area
+        Next
+
+        percentagem = area_select * 100 / portugal_area
+        TextBox1.Text = percentagem & "%"
     End Sub
 End Class

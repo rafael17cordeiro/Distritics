@@ -53,6 +53,7 @@ Partial Class Form1
         Me.BunifuDropdown1.BackColor = System.Drawing.Color.Transparent
         Me.BunifuDropdown1.BorderRadius = 7
         Me.BunifuDropdown1.DisabledColor = System.Drawing.Color.Gray
+        Me.BunifuDropdown1.Font = New System.Drawing.Font("Century Gothic", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuDropdown1.ForeColor = System.Drawing.Color.White
         Me.BunifuDropdown1.Items = New String() {"Aveiro", "Aã§ores", "Braga", "Braganã§a", "Beja", "Castelobranco", "Coimbra", "Ã‰vora", "Faro", "Guarda", "Lisboa", "Leiria", "Madeira", "Porto", "Portalegre", "Santarem", "Setãºbal", "Vianadocastelo", "Vilareal", "Viseu"}
         Me.BunifuDropdown1.Location = New System.Drawing.Point(367, 37)
@@ -66,7 +67,7 @@ Partial Class Form1
         'TextBox1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(367, 92)
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
@@ -111,11 +112,11 @@ Partial Class Form1
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label8.Font = New System.Drawing.Font("Satoshi", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(71, 400)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(42, 24)
+        Me.Label8.Size = New System.Drawing.Size(41, 22)
         Me.Label8.TabIndex = 28
         Me.Label8.Text = "Sair"
         '
@@ -160,11 +161,11 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label7.Font = New System.Drawing.Font("Satoshi Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(30, 336)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(245, 26)
+        Me.Label7.Size = New System.Drawing.Size(273, 24)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "Percentagem de territorio"
         '
@@ -173,11 +174,11 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label6.Font = New System.Drawing.Font("Satoshi Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(32, 291)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(174, 26)
+        Me.Label6.Size = New System.Drawing.Size(193, 24)
         Me.Label6.TabIndex = 11
         Me.Label6.Text = "Apresentar gáfico"
         '
@@ -198,11 +199,11 @@ Partial Class Form1
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label5.Font = New System.Drawing.Font("Satoshi Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(32, 247)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(173, 26)
+        Me.Label5.Size = New System.Drawing.Size(191, 24)
         Me.Label5.TabIndex = 10
         Me.Label5.Text = "Apresentar dados"
         '
@@ -210,11 +211,11 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Satoshi", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(24, 17)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(209, 60)
+        Me.Label1.Size = New System.Drawing.Size(198, 56)
         Me.Label1.TabIndex = 4
         Me.Label1.Text = "Distritos"
         '
@@ -223,11 +224,11 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label2.Font = New System.Drawing.Font("Satoshi Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(29, 113)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(197, 26)
+        Me.Label2.Size = New System.Drawing.Size(222, 24)
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "Atualizar População "
         '
@@ -236,11 +237,11 @@ Partial Class Form1
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label3.Font = New System.Drawing.Font("Satoshi Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(29, 157)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(203, 26)
+        Me.Label3.Size = New System.Drawing.Size(224, 24)
         Me.Label3.TabIndex = 8
         Me.Label3.Text = "Apresentar Listagem "
         '
@@ -249,11 +250,11 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label4.Font = New System.Drawing.Font("Satoshi Light", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(30, 202)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(187, 26)
+        Me.Label4.Size = New System.Drawing.Size(208, 24)
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Apresentar número"
         '
